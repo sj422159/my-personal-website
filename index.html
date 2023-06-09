@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="hover.css">
+   
+</head>
+<body>
+   <header id="home">
+<nav>
+    <div class="left">
+      <img src="./logo.png" alt="" srcset="" id="logo">
+        <h1>Sjit's Website</h1>
+    </div>
+    <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#home">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+          
+        </ul>
+    </div>
+</nav>
+   </header>
+   
+ <section class="firstsection">
+   <div class="first">
+    <h1>
+   Hii, 
+   <p> My Name Is  </p>
+   <p id="sjit">Swapnajit</p>
+   <p id="sjit">Sahoo</p>
+
+   <p>And I am a
+  <span id="element"></span>
+
+  </p></h1>
+   </div>
+   <div class="second">
+    <img src="./img.jpg" alt="" srcset="" id="img">
+   </div>
+   </section>
+
+
+
+
+  
+</main>
+
+<hr>
+<section>
+  <h1 class="con">Contacts</h1>
+  <main id="contact">
+    <div class="leftcon">
+   
+      <form target="_blank" action="https://formsubmit.co/sj422159@gmail.com" method="POST" onsubmit=reset()>
+      <label for="Name">Name</label>
+      <input type="text" name="Name" id="Name" placeholder="Enter ur name">
+      <label for="Email">Email</label>
+      <input type="email" name="Email" id="Email">
+      <label for="Message">Message</label>
+      <textarea name="Message" id="" cols="20" rows="5"></textarea>
+      <button type="submit" id="Submit">Submit</button>
+      
+    </form></div>
+   
+
+  </main>
+</section>
+<hr>
+<section>
+  <main id="copyright">
+   Copyright &copy All Rights Are Reserved</main>
+
+</section>
+
+ 
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Graphic designer.'],
+      typeSpeed: 50,
+    });
+  </script> 
+  
+
+</body>
+</html>

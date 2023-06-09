@@ -1,0 +1,191 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55, 55, 189);
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(86, 86, 134);
+    height: 90px;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+nav .left {
+    font-size: 1.2rem;
+
+    display: flex;
+    margin: 22px;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    margin: 0px 23px;
+
+}
+
+
+nav ul li:active {
+
+    color: rgb(231, 45, 191);
+    background-color: rgb(138, 228, 228);
+    border: 2px dotted rgb(144, 201, 12);
+
+}
+#home{
+    height: 90px;
+}
+
+.left img {
+    margin: 5px;
+
+    padding: 6px;
+}
+
+.left h1 {
+    margin: 22px;
+}
+
+.firstsection {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#img {
+    width: 382px;
+    height: 366px;
+    margin: 132px 15px 184px 237px;
+    padding: 15px;
+
+    box-shadow: 200px;
+
+}
+
+.first  {
+
+    font-size: 2rem;
+    margin: 200px;
+    padding: 2px;
+    /*text-align: center;*/
+
+
+}
+#element{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+hr {
+    color: red;
+    display: block;
+
+ margin-top: 50px;
+
+    unicode-bidi: isolate;
+   
+    overflow: hidden;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+#sjit{
+    color: rgb(137, 175, 67);
+    font-size: 5rem;
+    text-align: center;
+
+}
+
+
+
+.con{
+    text-align: center;
+    margin: 40px;
+    font-size: 3rem;
+    justify-content: center;
+
+}
+form{
+   
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    color: rgb(162, 170, 42);
+   
+
+}
+
+input,
+select,
+textarea {
+    width: 65%;
+    height: 50%;
+    padding: 37px;
+    border: 4px solid #a82e2e;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    resize: vertical;
+    text-align: center;
+    font-size: 1rem;
+    font-family:  sans-serif;
+}
+input[type=submit] {
+  background-color: #4cd9c6;
+  color: #d40b5f;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+ 
+}
+input , textarea:hover {
+  background-color: #ce3d19;
+}
+button{
+    width: 800px;
+    height: 50px;
+    background-color: #ec11b5;
+}
+
+
+#copyright{
+    height: 50px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+   background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}

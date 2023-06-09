@@ -1,0 +1,18 @@
+nav ul li:hover{
+  
+    color: chocolate;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 2px;
+}
+.left img:hover{
+    border: 2px dotted white;
+    background-color: blueviolet;
+}
+.second img:hover{
+
+    border: 3px solid black;
+    border-radius: 2px;
+
+}
